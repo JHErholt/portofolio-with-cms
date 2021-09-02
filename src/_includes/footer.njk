@@ -1,0 +1,56 @@
+<footer class="page-footer">
+    <section class="footer-section">
+        <div class="flex-group">
+            <div class="col-50 center">
+                <div class="flex-item" id="mail-container">
+                    <h3>Mail</h3>
+                    <p>Du kan kan kontakte mig på min mail.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Telefon</h3>
+                    <p>For hurtigere kontakt, kan du ringe.</p>
+                    <p>30 31 96 85</p>
+                </div>
+            </div>
+            <div class="col-50 center">
+                <div class="flex-item">
+                    <h3>Github</h3>
+                    <p>Du kan se mit kode arbejde her.</p>
+                    <a href="https://github.com/JHErholt" target="_blank">Github</a>
+                </div>
+                <div class="flex-item">
+                    <h3>LinkedIn</h3>
+                    <p>Vær en del af mit netværk.</p>
+                    <a href="https://www.linkedin.com/in/jacob-erholt-b33b74193/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright center" id="copyright"></div>
+
+        {# Scripts #}
+        
+        <script>
+            {# Create all rights text #}
+            const d = new Date();
+            const y = d.getFullYear();
+            var getAllRights = document.getElementById('copyright');
+            var createAll = document.createElement('p');
+            createAll.innerHTML = '&#169; ' + y + ' Jacob Erholt';
+            getAllRights.appendChild(createAll);
+
+            {# Create the mail #}
+            setTimeout(function (){
+            var getMailContainer = document.getElementById('mail-container')
+            var createMail = document.createElement('a')
+            createMail.innerHTML = 'jacob@erholt.dk'
+            createMail.href = 'mailto:jacob@erholt.dk'
+            createMail.target = '_blank'
+            getMailContainer.appendChild(createMail)
+            }, 10)
+
+        </script>
+
+
+
+    </section>
+</footer>
