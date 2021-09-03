@@ -3,7 +3,7 @@
         <div class="flex-group">
             <div class="col-50 center">
                 <div class="flex-item" id="mail-container">
-                    <div class="flex-group center">
+                    <div class="footer-title-container center">
                         <div class=" align-right column-right-gap">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -14,7 +14,7 @@
                     <p>Du kan kan kontakte mig på min mail.</p>
                 </div>
                 <div class="flex-item">
-                    <div class="flex-group center">
+                    <div class="footer-title-container center">
                         <div class="align-right column-right-gap">
                             <i class="fas fa-phone-square"></i>
                         </div>
@@ -23,12 +23,12 @@
                         </div>
                     </div>
                     <p>For hurtigere kontakt, kan du ringe.</p>
-                    <p>30 31 96 85</p>
+                    <p class="footer-focus">30 31 96 85</p>
                 </div>
             </div>
             <div class="col-50 center">
                 <div class="flex-item">
-                    <div class="flex-group center">
+                    <div class="footer-title-container center">
                         <div class=" align-right column-right-gap">
                             <i class="fab fa-github-square"></i>
                         </div>
@@ -37,10 +37,10 @@
                         </div>
                     </div>
                     <p>Du kan se mit kode arbejde her.</p>
-                    <a href="https://github.com/JHErholt" target="_blank">Github</a>
+                    <a class="footer-focus" href="https://github.com/JHErholt" target="_blank">Github</a>
                 </div>
                 <div class="flex-item">
-                    <div class="flex-group center">
+                    <div class="footer-title-container center">
                         <div class=" align-right column-right-gap">
                             <i class="fab fa-linkedin"></i>
                         </div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <p>Vær en del af mit netværk.</p>
-                    <a href="https://www.linkedin.com/in/jacob-erholt-b33b74193/" target="_blank">LinkedIn</a>
+                    <a class="footer-focus" href="https://www.linkedin.com/in/jacob-erholt-b33b74193/" target="_blank">LinkedIn</a>
                 </div>
             </div>
         </div>
@@ -73,6 +73,7 @@
                 createMail.innerHTML = 'jacob@erholt.dk'
                 createMail.href = 'mailto:jacob@erholt.dk'
                 createMail.target = '_blank'
+                createMail.className = 'footer-focus'
                 getMailContainer.appendChild(createMail)
             }, 10)
 

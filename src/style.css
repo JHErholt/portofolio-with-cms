@@ -8,7 +8,7 @@
   --clr-primary-700: hsl(235, 25%, 20%);
 
   --clr-neutral-100: hsl(0, 0%, 95%);
-  --clr-neutral-200: hsl(0, 0%, 80%);
+  --clr-neutral-200: hsl(0, 0%, 90%);
   --clr-neutral-300: hsl(0, 0%, 65%);
   --clr-neutral-400: hsl(0, 0%, 50%);
   --clr-neutral-500: hsl(0, 0%, 40%);
@@ -72,7 +72,6 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -103,7 +102,9 @@ select {
   General
 /////////////////////// */
 
-
+body{
+  background-color: var(--clr-neutral-100);
+}
 
 /* //////////////////////
 Universal
@@ -130,31 +131,57 @@ Universal
   margin-right: .5em;
 }
 
-.col-50{
-  flex: 0 0 50%;
-  max-width: 50%;
-}
 
 
-.flex-group{
-  display: flex;
-}
+
+
 .flex-item{
   padding: 1.5em 0;
 }
 .center{
   justify-content: center;
   text-align: center;
+  margin: 0 auto;
 }
 
+/* Portrait phones */
+@media only screen and (min-width: 576px){
+  header{
+    background-color: var(--clr-neutral-100);
+  }
+} 
+/* Tablets */
+@media only screen and (min-width: 768px){
+  .col-50{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .flex-group{
+    display: flex;
+  }
+} 
+/* Laptops */
+@media only screen and (min-width: 992px){
+  header{
+    background-color: var(--clr-neutral-100);
+  }
+} 
+/* Large devices */
+@media only screen and (min-width: 1200px){
+  header{
+    background-color: var(--clr-neutral-100);
+  }
+}
 /* //////////////////////
   Header
 /////////////////////// */
 header{
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-200);
 }
 header ul{
-  gap: 4em;
+  padding: 0;
+  gap: 1em;
   justify-content: center;
 }
 header li{
@@ -163,7 +190,7 @@ header li{
 header a{
   font-family: 'Spartan', sans-serif;
   color: var(--clr-primary-700);
-  font-size: 2em;
+  font-size: .9em;
   font-weight: 500;
   transition: .2s;
   text-decoration: none;
@@ -171,12 +198,45 @@ header a{
 header a:hover{
   color:var(--clr-primary-500);
 }
-
+.navbar{
+  display: flex;
+}
 .header-section{
   padding: 10px;
 }
 
+/* Portrait phones */
+@media only screen and (min-width: 576px){
 
+} 
+/* Tablets */
+@media only screen and (min-width: 768px){
+  header ul{
+    gap: 2em;
+  }
+  header a{
+    font-size: 1.4em;
+  }
+} 
+
+/* Laptops */
+@media only screen and (min-width: 992px){
+  header ul{
+    gap: 3em;
+  }
+  header a{
+    font-size: 1.6em;
+  }
+} 
+/* Large devices */
+@media only screen and (min-width: 1200px){
+  header ul{
+    gap: 4em;
+  }
+  header a{
+    font-size: 2em;
+  }
+} 
 /* //////////////////////
   Footer
 /////////////////////// */
@@ -184,10 +244,10 @@ footer{
   background-color: var(--clr-primary-700);
   color: var(--clr-neutral-100);
   font-family: 'Spartan', sans-serif;
-  font-size: 1.2em;
+  font-size: .8em;
 }
 footer i{
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 footer a{
   color: var(--clr-primary-500);
@@ -195,6 +255,9 @@ footer a{
 }
 footer a:hover{
   color: var(--clr-primary-600);
+}
+.footer-title-container{
+  display: flex;
 }
 footer h3{
   line-height: 1.8em;
@@ -208,6 +271,95 @@ footer h3{
   font-family: serif;
   padding: 4em 0 2em 0;
 }
+.footer-focus{
+  padding-top: 10px;
+  display: inline-block;
+}
+
+/* Portrait phones */
+@media only screen and (min-width: 576px){
+} 
+/* Tablets */
+@media only screen and (min-width: 768px){
+  footer{
+    font-size: 1em;
+  }
+  footer i{
+    font-size: 1.8em;
+  }
+} 
+/* Laptops */
+@media only screen and (min-width: 992px){
+  
+} 
+/* Large devices */
+@media only screen and (min-width: 1200px){
+  footer{
+    font-size: 1.2em;
+  }
+  footer i{
+    font-size: 1.8em;
+  }
+}
 /* //////////////////////
   Main
 /////////////////////// */
+main{
+  min-height: 90vh;
+  font-family: 'Spartan', sans-serif;
+  color: var(--clr-neutral-800);
+}
+main section{
+  width: 60%;
+}
+main p{
+  padding: 10px 0;
+}
+.heading{
+  color: var(--clr-primary-500);
+  line-height: 2em;
+  font-size: 1.6em;
+  margin: 0 0 1em 0 ;
+}
+.intermediate-heading{
+  color: var(--clr-primary-500);
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px 0;
+}
+.body-text{
+  text-align: left;
+}
+/* ////////////
+  Front
+//////////// */
+
+
+/* ////////////
+  About
+//////////// */
+.portrait-container{
+  padding: 80px;
+}
+.portrait{
+  margin-top: 20px;
+  width: 50%;
+}
+.education-container{
+  padding: 10px 0;
+}
+.education-list{
+  width: 40%;
+  text-align: unset;
+}
+.education-list li{
+  line-height: 2em;
+}
+/* ////////////
+  Project
+//////////// */
+
+
+/* ////////////
+  Archive
+//////////// */
