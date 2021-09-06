@@ -183,6 +183,7 @@ header{
   opacity: .96;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 header ul{
   padding: 0;
@@ -360,14 +361,32 @@ main p{
 .education-list li{
   line-height: 2em;
 }
-.skill-container{
+.text-container{
   width: 80%;
 }
 /* ////////////
   Project
 //////////// */
-
-
+.website-snippet-container{
+  position: relative;
+  width: 33%;
+  display: block;
+}
+.website-snippet-overlay{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+}
+.website-snippet-image{
+  display: block;
+  height: auto;
+  width: 100%;
+}
 /* ////////////
   Archive
 //////////// */
