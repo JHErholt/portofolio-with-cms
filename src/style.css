@@ -101,7 +101,9 @@ select {
 /* //////////////////////
   General
 /////////////////////// */
-
+html{
+  scroll-behavior: smooth !important;
+}
 body{
   background-color: var(--clr-neutral-100);
 }
@@ -178,6 +180,9 @@ Universal
 /////////////////////// */
 header{
   background-color: var(--clr-neutral-200);
+  opacity: .96;
+  position: sticky;
+  top: 0;
 }
 header ul{
   padding: 0;
@@ -311,6 +316,7 @@ main{
 }
 main section{
   width: 60%;
+  margin-bottom: 80px !important;
 }
 main p{
   padding: 10px 0;
@@ -342,7 +348,6 @@ main p{
   padding: 80px;
 }
 .portrait{
-  margin-top: 20px;
   width: 50%;
 }
 .education-container{
@@ -354,6 +359,9 @@ main p{
 }
 .education-list li{
   line-height: 2em;
+}
+.skill-container{
+  width: 80%;
 }
 /* ////////////
   Project
