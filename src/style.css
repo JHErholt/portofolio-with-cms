@@ -162,6 +162,9 @@ Universal
   .flex-group{
     display: flex;
   }
+  .wrap{
+    flex-wrap: wrap;
+  }
 } 
 /* Laptops */
 @media only screen and (min-width: 992px){
@@ -315,10 +318,7 @@ main{
   font-family: 'Spartan', sans-serif;
   color: var(--clr-neutral-800);
 }
-main section{
-  width: 60%;
-  margin-bottom: 80px !important;
-}
+
 main p{
   padding: 10px 0;
 }
@@ -345,6 +345,10 @@ main p{
 /* ////////////
   About
 //////////// */
+.about-section{
+  width: 60%;
+  margin-bottom: 80px !important;
+}
 .portrait-container{
   padding: 80px;
 }
@@ -369,19 +373,34 @@ main p{
 //////////// */
 .website-snippet-container{
   position: relative;
-  width: 33%;
+  width: 33.33%;
   display: block;
 }
 .website-snippet-overlay{
   position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background-color: violet;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--clr-primary-600);
+  opacity: 0;
+  transition: .3s;
 }
+.website-snippet-overlay:hover{
+  opacity: 1;
+}
+.website-snippet-text-container{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-neutral-100);
+}
+.website-snippet-title{font-size: 1.6em;}
+.website-snippet-text{font-size: 1.2em;}
 .website-snippet-image{
   display: block;
   height: auto;

@@ -8,11 +8,12 @@ title: Jacob Erholt | Projekter
     getA.style = 'text-decoration: underline;'
 </script>
 
-{# <section> #}
-<div class="flex-group">
-    {%- for website in collections.featured-%}
-        {% include "website-snippet.njk" %}
-    {%- endfor -%}
-</div>
+<section>
+    
+    <div class="flex-group wrap">
+        {%- for website in collections.featured | reverse -%}
+            {% include "website-snippet.njk" %}
+        {%- endfor -%}
+    </div>
 
-{# </section> #}
+</section>
