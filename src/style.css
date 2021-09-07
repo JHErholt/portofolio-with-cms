@@ -134,7 +134,9 @@ Universal
 }
 
 
-
+.spacious{
+  width: 60%;
+}
 
 
 .flex-item{
@@ -345,8 +347,7 @@ main p{
 /* ////////////
   About
 //////////// */
-.about-section{
-  width: 60%;
+main section{
   margin-bottom: 80px !important;
 }
 .portrait-container{
@@ -371,10 +372,19 @@ main p{
 /* ////////////
   Project
 //////////// */
+
+.project-text-container{
+  padding: 80px 80px 40px 80px; 
+}
+.project-text{
+  padding-top: 40px;
+}
+
 .website-snippet-container{
   position: relative;
-  width: 33.33%;
+  width: 33%;
   display: block;
+  margin: 0.166%;
 }
 .website-snippet-overlay{
   position: absolute;
@@ -389,7 +399,7 @@ main p{
   transition: .3s;
 }
 .website-snippet-overlay:hover{
-  opacity: 1;
+  opacity: 0.95;
 }
 .website-snippet-text-container{
   position: absolute;
