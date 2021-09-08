@@ -5,7 +5,7 @@ media_folder: "public/assets/website"
 public_folder: "/assets/website"
 collections:
   - name: "website"
-    label: "Blog"
+    label: "Website"
     folder: "src/website"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"

@@ -339,6 +339,7 @@ main p{
 .body-text{
   text-align: left;
 }
+
 /* ////////////
   Front
 //////////// */
@@ -347,6 +348,7 @@ main p{
 /* ////////////
   About
 //////////// */
+
 main section{
   margin-bottom: 80px !important;
 }
@@ -419,3 +421,18 @@ main section{
 /* ////////////
   Archive
 //////////// */
+
+
+
+/* ////////////
+  404
+//////////// */
+
+.missing-container{ 
+  position: relative;
+  width: 60%;
+  margin: 80px auto 80px 18%;
+}
+.missing-text{
+  padding: 40px 0;
+}
