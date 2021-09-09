@@ -134,6 +134,10 @@ Universal
 }
 
 
+.padding-top{
+  padding-top: 40px;
+  color: rgba(0, 0, 0, 0.85);
+}
 .spacious{
   width: 60%;
 }
@@ -313,7 +317,7 @@ footer h3{
   }
 }
 /* //////////////////////
-  Main
+Main
 /////////////////////// */
 main{
   min-height: 90vh;
@@ -343,8 +347,26 @@ main p{
 /* ////////////
   Front
 //////////// */
-
-
+#video-bg {
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  background: transparent url(video-bg.jpg) no-repeat;
+  background-size: cover;
+}
+video {
+  display: block;
+}
+.video-container {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  position: static;
+  top: 0;
+  right: 0;
+  z-index: -100;
+}
 /* ////////////
   About
 //////////// */
@@ -377,9 +399,6 @@ main section{
 
 .project-text-container{
   padding: 80px 80px 40px 80px; 
-}
-.project-text{
-  padding-top: 40px;
 }
 
 .website-snippet-container{
