@@ -378,20 +378,50 @@ main section{
   padding: 80px;
 }
 .portrait{
-  width: 50%;
+  width: 100%;
 }
 .education-container{
   padding: 10px 0;
 }
 .education-list{
-  width: 40%;
+  width: 100%;
   text-align: unset;
 }
 .education-list li{
   line-height: 2em;
 }
 .text-container{
-  width: 80%;
+  width: 100%;
+}
+/* Tablets */
+@media only screen and (min-width: 768px){
+  .portrait{
+    width: 100%;
+  }
+  .education-list{
+    width: 70%;
+  }
+}
+/* Laptop */
+@media only screen and (min-width: 992px){
+  .education-list{
+    width: 65%;
+  }
+  .text-container{
+    width: 80%;
+  }
+}
+/* Large device */
+@media only screen and (min-width: 1200px){
+  .education-list{
+    width: 40%;
+  }
+  .text-container{
+    width: 80%;
+  }
+  .portrait{
+    width: 50%;
+  }
 }
 /* ////////////
   Project
