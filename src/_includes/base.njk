@@ -39,6 +39,25 @@
     });
   }
 </script>
+<script>
+window.onscroll = function () {
+    const getHeader = document.getElementById('header')
+    const getA = document.getElementById('navbar-nav').getElementsByTagName("a")        
+    
+    if(window.pageYOffset > 0){
+        getHeader.style.backgroundColor = 'var(--clr-neutral-100)';
+        for(var i = 0; i < getA.length; i++){
+            getA[i].style.fontSize = "1.4em"
+        }
+    }else{
+        getHeader.style.backgroundColor = 'var(--clr-neutral-200)';
+        for(var i = 0; i < getA.length; i++){
+            getA[i].style.fontSize = "1.6em"
+        }
+    }
+}
+</script>
+
 
 </body>
 </html>

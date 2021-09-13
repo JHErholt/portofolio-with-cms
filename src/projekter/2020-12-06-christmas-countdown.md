@@ -1,8 +1,8 @@
 ---
-title: B0BLES
+title: Christmas countdown
 author: Jacob Erholt
-tags: ['website', 'featured']
-image: /assets/website/b0bles.png
+tags: ['projekter', 'featured']
+image: /assets/projekter/christmas-countdown.png
 imageAlt: This is a test
 description: Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML, CSS og JS.
 ---

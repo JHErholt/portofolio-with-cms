@@ -133,7 +133,14 @@ Universal
   margin-right: .5em;
 }
 
+.highlight{
+  color: var(--clr-primary-500);
+}
 
+.large-padding-top{
+  padding-top: 80px;
+  color: rgba(0, 0, 0, 0.85);
+}
 .padding-top{
   padding-top: 40px;
   color: rgba(0, 0, 0, 0.85);
@@ -193,6 +200,7 @@ header{
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: .4s;
 }
 header ul{
   padding: 0;
@@ -229,9 +237,9 @@ header a:hover{
   header ul{
     gap: 2em;
   }
-  header a{
+  /* header a{
     font-size: 1.4em;
-  }
+  } */
 } 
 
 /* Laptops */
@@ -248,9 +256,9 @@ header a:hover{
   header ul{
     gap: 4em;
   }
-  header a{
+  /* header a{
     font-size: 2em;
-  }
+  } */
 } 
 /* //////////////////////
   Footer
@@ -431,13 +439,13 @@ main section{
   padding: 80px 80px 40px 80px; 
 }
 
-.website-snippet-container{
+.projekter-snippet-container{
   position: relative;
   width: 33%;
   display: block;
   margin: 0.166%;
 }
-.website-snippet-overlay{
+.projekter-snippet-overlay{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -449,10 +457,10 @@ main section{
   opacity: 0;
   transition: .3s;
 }
-.website-snippet-overlay:hover{
+.projekter-snippet-overlay:hover{
   opacity: 0.95;
 }
-.website-snippet-text-container{
+.projekter-snippet-text-container{
   position: absolute;
   text-align: center;
   left: 50%;
@@ -460,9 +468,9 @@ main section{
   transform: translate(-50%, -50%);
   color: var(--clr-neutral-100);
 }
-.website-snippet-title{font-size: 1.6em;}
-.website-snippet-text{font-size: 1.2em;}
-.website-snippet-image{
+.projekter-snippet-title{font-size: 1.6em;}
+.projekter-snippet-text{font-size: 1.2em;}
+.projekter-snippet-image{
   display: block;
   height: auto;
   width: 100%;
