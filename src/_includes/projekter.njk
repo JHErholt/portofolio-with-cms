@@ -1,9 +1,46 @@
 ---
 layout: 'base.njk'
 ---
+<section class="flex-group padding-top spacious center">
+   <div class="col-50">
 
-   <h1>
-      {{ title }}
-    </h1>
+{# intro #}
+      <div>
+         <h1 class="heading">
+            {{ title }}
+         </h1>
+         <div class="center text-container">
+            <div class="body-text">
+               {{ introduction }}
+            </div>
+         </div>
+      </div>
+{# problemer og krav #}
+      <div class="center text-container padding-top">
+         <div class="body-text">
+         {{ problem }}
+         </div>
+      </div>
+{# løsninger #}
+      <div class="center text-container padding-top">
+         <div class="body-text">
+            {{ solution }}
+         </div>
+      </div>
+   </div>
+   <div class="col-50">
+   
+{# image #}
+   <div>
+      <img src="{{ siteImage }}" alt=""> 
+   </div>
+{# links #}
+   <div>
+      <a target="_blank" href="{{ linkToSite }}">Site</a>
+      <a target="_blank" href="{{ linkToGithub }}">Gitten</a>
+   </div>
+   </div>
+</section>
 
-    {{ content | safe }}
+{{ content | safe }}
+

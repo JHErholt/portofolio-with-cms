@@ -138,12 +138,10 @@ Universal
 }
 
 .large-padding-top{
-  padding-top: 80px;
-  color: rgba(0, 0, 0, 0.85);
+  padding-top: 100px;
 }
 .padding-top{
   padding-top: 40px;
-  color: rgba(0, 0, 0, 0.85);
 }
 .spacious{
   width: 60%;
@@ -168,6 +166,7 @@ Universal
 /* Tablets */
 @media only screen and (min-width: 768px){
   .col-50{
+    position: relative;
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -368,7 +367,7 @@ video {
 }
 .video-container {
   width: 100%;
-  max-height: 500px;
+  max-height: 450px;
   overflow: hidden;
   position: static;
   top: 0;
