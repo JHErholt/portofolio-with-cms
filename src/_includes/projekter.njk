@@ -1,14 +1,16 @@
 ---
 layout: 'base.njk'
 ---
-<section class="flex-group padding-top spacious center">
+<section class=" padding-top spacious center">
+         <h1 class="heading">
+            {{ title }}
+         </h1>
+         <div class="flex-group">
+         
    <div class="col-50">
 
 {# intro #}
       <div>
-         <h1 class="heading">
-            {{ title }}
-         </h1>
          <div class="center text-container">
             <div class="body-text">
                {{ introduction }}
@@ -40,6 +42,7 @@ layout: 'base.njk'
       <a target="_blank" href="{{ linkToGithub }}">Gitten</a>
    </div>
    </div>
+         </div>
 </section>
 
 {{ content | safe }}
