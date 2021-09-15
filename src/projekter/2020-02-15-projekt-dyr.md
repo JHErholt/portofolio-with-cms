@@ -3,8 +3,16 @@ title: Projekt Dyr
 author: Jacob Erholt
 tags: ['projekter', 'featured']
 image: /assets/projekter/projekt-dyr.png
-imageAlt: This is a test
-description: Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML, CSS og JS.
----
+imageAlt: Snippet
+description: 
+linkToGithub: https://github.com/JHErholt/scenery
+linkToSite: https://christmas-erholt.netlify.app/
 
-Amali
+siteImage: /assets/projekter/christmas-site.jpg
+siteImageAlt: Billede af siden
+---
+<p></p>
+
+<p></p>
+
+<p></p>

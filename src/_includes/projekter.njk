@@ -7,43 +7,50 @@ layout: 'base.njk'
          </h1>
          <div class="flex-group">
          
-   <div class="col-50">
+   <div class="col-50" id="case-text-wrapper">
 
-{# intro #}
-      <div>
+   {{ content | safe }}
+
+
+      {# <div>
          <div class="center text-container">
             <div class="body-text">
-               {{ introduction }}
+               <p>{{ introduction }}</p>
             </div>
          </div>
       </div>
-{# problemer og krav #}
+
       <div class="center text-container padding-top">
          <div class="body-text">
-         {{ problem }}
+         <p>{{ problem }}</p>
          </div>
       </div>
-{# løsninger #}
+
       <div class="center text-container padding-top">
          <div class="body-text">
-            {{ solution }}
+            <p>{{ solution }}</p>
          </div>
-      </div>
+      </div> #}
+
+   <div class="padding-top case-link center">
+      <li>
+         <a class="link" target="_blank" href="{{ linkToSite }}">Website</a>
+      </li>
+      <li>
+         <a class="link" target="_blank" href="{{ linkToGithub }}">Github</a>
+      </li>
+   </div>
    </div>
    <div class="col-50">
    
 {# image #}
-   <div>
+   <div class="padding-top">
       <img src="{{ siteImage }}" alt=""> 
    </div>
-{# links #}
-   <div>
-      <a target="_blank" href="{{ linkToSite }}">Site</a>
-      <a target="_blank" href="{{ linkToGithub }}">Gitten</a>
-   </div>
+
    </div>
          </div>
 </section>
 
-{{ content | safe }}
+
 

@@ -43,6 +43,11 @@ dd {
   margin: 0;
 }
 
+li{
+  list-style: none;
+}
+
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul:where([role="list"]),
 ol:where([role="list"]) {
@@ -467,12 +472,32 @@ main section{
   transform: translate(-50%, -50%);
   color: var(--clr-neutral-100);
 }
-.projekter-snippet-title{font-size: 1.6em;}
+.projekter-snippet-title{font-size: 2.2em;}
 .projekter-snippet-text{font-size: 1.2em;}
 .projekter-snippet-image{
   display: block;
   height: auto;
   width: 100%;
+}
+.case-link{display: flex;}
+#case-text-wrapper p{
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 40px;
+  width: 100%;
+}
+#case-text-wrapper a{
+  padding: 0 1em;
+  transition: .4s;
+}
+#case-text-wrapper a:hover{
+  color: var(--clr-primary-500);
+}
+/* Large device */
+@media only screen and (min-width: 1200px){
+  #case-text-wrapper p{
+    width: 80%;
+  }
 }
 /* ////////////
   Archive

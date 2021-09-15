@@ -3,8 +3,16 @@ title: Projekt Lego
 author: Jacob Erholt
 tags: ['projekter', 'featured']
 image: /assets/projekter/projekt-lego.png
-imageAlt: This is a test
-description: Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML, CSS og JS.
----
+imageAlt: Snippet
+description:
+linkToGithub: https://github.com/JHErholt/scenery
+linkToSite: https://christmas-erholt.netlify.app/
 
-Amalieo er mega cutesadasd se
+siteImage: /assets/projekter/christmas-site.jpg
+siteImageAlt: Billede af siden
+---
+<p></p>
+
+<p></p>
+
+<p></p>
