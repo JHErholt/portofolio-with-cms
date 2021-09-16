@@ -1,14 +1,14 @@
 ---
 title: Greengarden
 author: Jacob Erholt
-tags: ['projekter', 'featured']
+tags: ['projekter', 'archive']
 image: /assets/projekter/greengarden.png
 imageAlt: Snippet
 description:
 linkToGithub: https://github.com/JHErholt/scenery
-linkToSite: https://christmas-erholt.netlify.app/
+linkToSite: https://greengarden-jerholt.netlify.app/
 
-siteImage: /assets/projekter/christmas-site.jpg
+siteImage: /assets/projekter/jens-site.jpg
 siteImageAlt: Billede af siden
 ---
 <p></p>

@@ -1,14 +1,14 @@
 ---
 title: Projekt Dyr
 author: Jacob Erholt
-tags: ['projekter', 'featured']
+tags: ['projekter', 'archive']
 image: /assets/projekter/projekt-dyr.png
 imageAlt: Snippet
 description: 
 linkToGithub: https://github.com/JHErholt/scenery
-linkToSite: https://christmas-erholt.netlify.app/
+linkToSite: https://dyr-info-jerholt.netlify.app/
 
-siteImage: /assets/projekter/christmas-site.jpg
+siteImage: /assets/projekter/dyr-info-site.jpg
 siteImageAlt: Billede af siden
 ---
 <p></p>

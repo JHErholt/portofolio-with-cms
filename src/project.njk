@@ -12,14 +12,12 @@ title: Jacob Erholt | Projekter
 <section>
     <div class="spacious center">
         <div class="center project-text-container">
-            <div class="body-text text-container center">
-                <p>Her er en samling af de seneste projekter jeg har lavet, man kan klikke på de enkelte projekter og se mere om projektet.</p>
-                <p class="center padding-top">De nyeste er først</p>
-
+            <div class="text-container center">
+                <p>Her er en samling af mine udvlagte projekter.</p>
             </div>
         </div>
     </div>
-    <div class="flex-group wrap">
+    <div class="flex-group wrap large-padding-top">
         {%- for projekter in collections.featured | reverse -%}
             {% include "projekter-snippet.njk" %}
         {%- endfor -%}
