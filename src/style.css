@@ -3,9 +3,9 @@
   
   --clr-primary-300: ;
   --clr-primary-400: ;
-  --clr-primary-500: hsl(360, 65%, 55%);
-  --clr-primary-600: hsl(360, 50%, 40%);
-  --clr-primary-700: hsl(235, 25%, 20%);
+  --clr-primary-500: #d74242;
+  --clr-primary-600: #993333;
+  --clr-primary-700: #262840;
 
   --clr-neutral-100: hsl(0, 0%, 95%);
   --clr-neutral-200: hsl(0, 0%, 90%);
