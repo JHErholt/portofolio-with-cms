@@ -295,7 +295,7 @@ footer h3{
 }
 .copyright{
   color: var(--clr-neutral-300);
-  font-family: serif;
+  font-family: 'Spartan', sans-serif;
   padding: 4em 0 2em 0;
 }
 .footer-focus{
@@ -391,6 +391,7 @@ main section{
 }
 .portrait{
   width: 100%;
+  pointer-events: none;
 }
 .education-container{
   padding: 10px 0;
