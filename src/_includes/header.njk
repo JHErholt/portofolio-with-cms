@@ -24,7 +24,7 @@
       const GET_HEADER = document.getElementById('header')
       const GET_A = document.getElementById('navbar-nav').getElementsByTagName("a")
 
-      const PHONE = window.matchMedia('(min-width: 576px) and (max-width: 767px)')
+      const PHONE = window.matchMedia('(max-width: 767px)')
       const TABLET = window.matchMedia('(min-width: 768px) and (max-width: 991px)')
       const LAPTOP = window.matchMedia('(min-width: 992px) and (max-width: 1199px)')
       const LARGE_DEVICE = window.matchMedia("(min-width: 1200px)")
@@ -35,7 +35,7 @@
 
             if(PHONE.matches){
                 console.log('telefon')
-                GET_A[i].style.fontSize = " .9em;"
+                GET_A[i].style.fontSize = "0.9em"
             }else if (TABLET.matches){
                 console.log('tablet')
                  GET_A[i].style.fontSize = "1.2em"

@@ -236,7 +236,7 @@ header a:hover{
 }
 /* Portrait phones */
 @media only screen and (min-width: 576px){
-  
+
 } 
 /* Tablets */
 @media only screen and (min-width: 768px){
@@ -366,8 +366,7 @@ main p{
   width: auto;
   min-width: 100%;
   height: auto;
-  background: transparent url(video-bg.jpg) no-repeat;
-  background-size: cover;
+  display: none;
 }
 video {
   display: block;
@@ -410,6 +409,9 @@ main section{
 }
 /* Tablets */
 @media only screen and (min-width: 768px){
+  #video-bg {
+    display: block;
+  }
   .portrait{
     width: 100%;
   }
