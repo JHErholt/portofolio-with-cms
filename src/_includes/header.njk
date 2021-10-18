@@ -18,3 +18,25 @@
         </nav>
     </section>
 </header>
+<script>
+    switch(window.location.pathname) {
+        case "/":
+        let getAHome = document.querySelector('a[href="/"]')
+        getAHome.className = 'selectedLink'
+        break;
+        case "/about/":
+        let getAAbout = document.querySelector('a[href="/about"]')
+        getAAbout.className = 'selectedLink'
+        break;
+        case "/project/":
+        let getAProject = document.querySelector('a[href="/project"]')
+        getAProject.className = 'selectedLink'
+        break;
+        case "/archive/":
+        let getAArchive = document.querySelector('a[href="/archive"]')
+        getAArchive.className = 'selectedLink'
+        break;
+    }
+    console.log(window.location.href)
+    
+</script>
