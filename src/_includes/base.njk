@@ -1,63 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Erholt | {{title}}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob Erholt | {{title}}</title>
 
-    {# Font awesome #}
-    <script src="https://kit.fontawesome.com/e63c2db5f3.js" crossorigin="anonymous"></script>
+  {# Font awesome #}
+  <script src="https://kit.fontawesome.com/e63c2db5f3.js" crossorigin="anonymous"></script>
 
-    {# Font families #}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  {# Font families #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    {# Style #}
-    <link rel="stylesheet" href="/style.css">
+  {# Style #}
+  <link rel="stylesheet" href="/style.css">
 
-    {# CMS #}
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {# CMS #}
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
-<body>
-{% include "header.njk" %}
-<main>
-    {{ content | safe }}
-</main>
-{% include "footer.njk" %}
 
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-<script>
-window.onscroll = function () {
-    const getHeader = document.getElementById('header')
-    const getA = document.getElementById('navbar-nav').getElementsByTagName("a")        
-    
-    if(window.pageYOffset > 0){
-        getHeader.style.backgroundColor = 'var(--clr-neutral-100)';
-        for(var i = 0; i < getA.length; i++){
-            getA[i].style.fontSize = "1.4em"
+<body>
+  {% include "header.njk" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+
+  <script>
+  // netlify security stuff
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
         }
-    }else{
-        getHeader.style.backgroundColor = 'var(--clr-neutral-200)';
-        for(var i = 0; i < getA.length; i++){
-            getA[i].style.fontSize = "1.6em"
-        }
+      });
     }
-}
-</script>
+  </script>
 
 
 </body>
+
 </html>
