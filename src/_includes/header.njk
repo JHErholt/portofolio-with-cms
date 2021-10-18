@@ -34,38 +34,28 @@
         for (var i = 0; i < GET_A.length; i++) {
 
             if(PHONE.matches){
-                console.log('telefon')
                 GET_A[i].style.fontSize = "0.9em"
             }else if (TABLET.matches){
-                console.log('tablet')
                  GET_A[i].style.fontSize = "1.2em"
             }else if (LAPTOP.matches){
-                console.log('Laptop')
                 GET_A[i].style.fontSize = "1.4em"
             }else if (LARGE_DEVICE.matches){
                 GET_A[i].style.fontSize = "1.4em"
             }
-
         }
       } else {
         GET_HEADER.style.backgroundColor = 'var(--clr-neutral-200)';
         for (var i = 0; i < GET_A.length; i++) {
 
             if(PHONE.matches){
-                console.log('telefon')
                 GET_A[i].style.fontSize = "1.2em"
             }else if (TABLET.matches){
-                console.log('tablet')
                  GET_A[i].style.fontSize = "1.4em"
             }else if (LAPTOP.matches){
-                console.log('Laptop')
                 GET_A[i].style.fontSize = "1.6em"
             }else if (LARGE_DEVICE.matches){
                 GET_A[i].style.fontSize = "1.6em"
             }
-
-
-         
         }
       }
     }
