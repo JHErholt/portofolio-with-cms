@@ -1,15 +1,17 @@
 ---
-title: Christmas countdown
 author: Jacob Erholt
-tags: ['projekter', 'featured']
-image: /assets/projekter/christmas-countdown.png
+date: 2021-10-19T06:53:44.921Z
 imageAlt: Snippet
-description:
-linkToGithub: https://github.com/JHErholt/scenery
-linkToSite: https://christmas-erholt.netlify.app/
-
 siteImage: /assets/projekter/christmas-site.jpg
 siteImageAlt: Billede af siden
+linkToGithub: https://github.com/JHErholt/scenery
+title: Christmas countdown
+description: A countdown till christmas
+tags:
+  - projekter
+  - archive
+image: /assets/projekter/christmas-countdown.png
+linkToSite: https://christmas-erholt.netlify.app/
 ---
 <p>I julen 2020 lavede jeg en countdown, hvor at man kan se hvor lang tid der er tilbage indtil den 24. december.</P>
 
