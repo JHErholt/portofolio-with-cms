@@ -143,7 +143,7 @@ Universal
 }
 
 .large-padding-top{
-  padding-top: 100px;
+  padding-top: 40px;
 }
 .padding-top{
   padding-top: 40px;
@@ -151,8 +151,6 @@ Universal
 .spacious{
   width: 60%;
 }
-
-
 .flex-item{
   padding: 1.5em 0;
 }
@@ -161,7 +159,6 @@ Universal
   text-align: center;
   margin: 0 auto;
 }
-
 /* Portrait phones */
 @media only screen and (min-width: 576px){
   header{
@@ -175,7 +172,9 @@ Universal
     flex: 0 0 50%;
     max-width: 50%;
   }
-  
+  .large-padding-top{
+    padding-top: 80px;
+  }
   .flex-group{
     display: flex;
   }
@@ -187,6 +186,9 @@ Universal
 @media only screen and (min-width: 992px){
   header{
     background-color: var(--clr-neutral-100);
+  }
+  .large-padding-top{
+    padding-top: 100px;
   }
 } 
 /* Large devices */
@@ -234,20 +236,12 @@ header a:hover{
 .selectedLink{
   text-decoration: underline;
 }
-/* Portrait phones */
-@media only screen and (min-width: 576px){
-
-} 
 /* Tablets */
 @media only screen and (min-width: 768px){
   header ul{
     gap: 2em;
   }
-  /* header a{
-    font-size: 1.4em;
-  } */
 } 
-
 /* Laptops */
 @media only screen and (min-width: 992px){
   header ul{
@@ -262,9 +256,6 @@ header a:hover{
   header ul{
     gap: 4em;
   }
-  /* header a{
-    font-size: 2em;
-  } */
 } 
 /* //////////////////////
   Footer
@@ -304,10 +295,6 @@ footer h3{
   padding-top: 10px;
   display: inline-block;
 }
-
-/* Portrait phones */
-@media only screen and (min-width: 576px){
-} 
 /* Tablets */
 @media only screen and (min-width: 768px){
   footer{
@@ -316,10 +303,6 @@ footer h3{
   footer i{
     font-size: 1.8em;
   }
-} 
-/* Laptops */
-@media only screen and (min-width: 992px){
-  
 } 
 /* Large devices */
 @media only screen and (min-width: 1200px){
@@ -338,7 +321,6 @@ main{
   font-family: 'Spartan', sans-serif;
   color: var(--clr-neutral-800);
 }
-
 main p{
   padding: 10px 0;
 }
@@ -388,7 +370,7 @@ main section{
   margin-bottom: 80px !important;
 }
 .portrait-container{
-  padding: 80px;
+  padding: 5px;
 }
 .portrait{
   width: 100%;
@@ -424,6 +406,9 @@ main section{
   .education-list{
     width: 65%;
   }
+  .portrait-container{
+    padding: 80px;
+  }
   .text-container{
     width: 80%;
   }
@@ -445,14 +430,15 @@ main section{
 //////////// */
 
 .project-text-container{
-  padding: 80px 80px 40px 80px; 
+  padding: 30px 20px 40px 20px; 
 }
 
 .projekter-snippet-container{
   position: relative;
-  width: 33%;
+  width: 100%;
   display: block;
   margin: 0.166%;
+  margin-bottom: .5em;
 }
 .projekter-snippet-overlay{
   position: absolute;
@@ -463,7 +449,7 @@ main section{
   height: 100%;
   width: 100%;
   background-color: var(--clr-primary-600);
-  opacity: 0;
+  opacity: 0.95;
   transition: .3s;
 }
 .projekter-snippet-overlay:hover{
@@ -497,6 +483,22 @@ main section{
 }
 #case-text-wrapper a:hover{
   color: var(--clr-primary-500);
+}
+/* Tablets */
+@media only screen and (min-width: 768px){
+  .project-text-container{
+    padding: 80px 80px 40px 80px; 
+  }
+  .projekter-snippet-container{
+    width: 33%;
+    margin: 0.166%;
+  }
+}
+/* Laptop */
+@media only screen and (min-width: 992px){
+  .projekter-snippet-overlay{
+    opacity: 0;
+  }
 }
 /* Large device */
 @media only screen and (min-width: 1200px){
