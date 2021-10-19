@@ -1,6 +1,5 @@
 ---
 author: Jacob Erholt
-date: 2020-12-07
 imageAlt: Snippet
 siteImage: /assets/projekter/christmas-site.jpg
 siteImageAlt: Billede af siden
