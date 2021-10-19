@@ -1,7 +1,7 @@
 ---
 title: Christmas countdown
 author: Jacob Erholt
-tags: ['projekter', 'featured']
+tags: ['projekter', 'archive']
 image: /assets/projekter/christmas-countdown.png
 imageAlt: Snippet
 description:
