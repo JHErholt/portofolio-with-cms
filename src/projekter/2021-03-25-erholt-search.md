@@ -2,13 +2,13 @@
 title: Erholt Search
 author: Jacob Erholt
 tags: ['projekter', 'archive']
-image: /assets/projekter/erholt-search.png
+image: /assets/projekter/erholt-search_1.webp
 imageAlt: Snippet
 description: 
 linkToGithub: https://github.com/JHErholt/scenery
 linkToSite: https://erholt-search.netlify.app/
 
-siteImage: /assets/projekter/erholt-search-site.jpg
+siteImage: /assets/projekter/erholt-search_2.webp
 siteImageAlt: Billede af siden
 ---
 <p>På hovedforløb 1 fik jeg en opgave, hvor at jeg skulle lave en hjemmeside med en API. </p>

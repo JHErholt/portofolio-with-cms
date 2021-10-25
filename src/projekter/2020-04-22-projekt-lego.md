@@ -2,13 +2,13 @@
 title: Projekt Lego
 author: Jacob Erholt
 tags: ['projekter', 'featured']
-image: /assets/projekter/projekt-lego.png
+image: /assets/projekter/projekt-lego_1.webp
 imageAlt: Snippet
 description:
 linkToGithub: https://github.com/JHErholt/scenery
 linkToSite: https://lego-opsamling-jerholt.netlify.app/
 
-siteImage: /assets/projekter/lego-site.jpg
+siteImage: /assets/projekter/projekt-lego_2.webp
 siteImageAlt: Billede af siden
 ---
 <p>På grundforløb 2 fik jeg til opgave at lave en 3D Lego figur og animere ham. Efter at vi havde lavet animationen, skulle vi vælge et medie hvor at vi kunne fremvise vores animation. Jeg valgte derfor at lave en hjemmeside.</p>

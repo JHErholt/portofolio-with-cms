@@ -1,7 +1,7 @@
 ---
 author: Jacob Erholt
 imageAlt: Snippet
-siteImage: /assets/projekter/christmas-site.jpg
+siteImage: /assets/projekter/christmas-countdown_2.webp
 siteImageAlt: Billede af siden
 linkToGithub: https://github.com/JHErholt/scenery
 title: Christmas countdown
@@ -9,7 +9,7 @@ description:
 tags:
   - projekter
   - archive
-image: /assets/projekter/christmas-countdown.png
+image: /assets/projekter/christmas-countdown_1.webp
 linkToSite: https://christmas-erholt.netlify.app/
 ---
 <p>I julen 2020 lavede jeg en countdown, hvor at man kan se hvor lang tid der er tilbage indtil den 24. december.</P>
