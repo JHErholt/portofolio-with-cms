@@ -241,6 +241,9 @@ header a:hover{
   header ul{
     gap: 2em;
   }
+  header a{
+    font-size: 1.4em;
+  }
 } 
 /* Laptops */
 @media only screen and (min-width: 992px){
@@ -265,6 +268,7 @@ footer{
   color: var(--clr-neutral-100);
   font-family: 'Spartan', sans-serif;
   font-size: .8em;
+  
 }
 footer i{
   font-size: 1.6em;
@@ -318,6 +322,7 @@ Main
 /////////////////////// */
 main{
   min-height: 90vh;
+  
   font-family: 'Spartan', sans-serif;
   color: var(--clr-neutral-800);
 }
@@ -348,20 +353,27 @@ main p{
   width: auto;
   min-width: 100%;
   height: auto;
-  display: none;
 }
 video {
-  display: block;
+  display: none;
 }
 .video-container {
   width: 100%;
+  height: 100vh;
   overflow: hidden;
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -100;
+  z-index: 1;
 }
-.front-section { margin-bottom: 0 !important;}
+.front-section { 
+  margin-bottom: 0 !important;
+  min-height: 90vh;
+  background-image: url(../assets/front/index-banner-phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* ////////////
   About
 //////////// */
@@ -391,9 +403,7 @@ main section{
 }
 /* Tablets */
 @media only screen and (min-width: 768px){
-  #video-bg {
-    display: block;
-  }
+
   .portrait{
     width: 100%;
   }
@@ -403,6 +413,9 @@ main section{
 }
 /* Laptop */
 @media only screen and (min-width: 992px){
+  #video-bg {
+    display: block;
+  }
   .education-list{
     width: 65%;
   }
