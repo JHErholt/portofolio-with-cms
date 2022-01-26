@@ -401,9 +401,13 @@ main section{
 .text-container{
   width: 100%;
 }
+@media only screen and (min-width: 425px){
+  #video-bg {
+    display: block;
+  }
+}
 /* Tablets */
 @media only screen and (min-width: 768px){
-
   .portrait{
     width: 100%;
   }
@@ -413,9 +417,7 @@ main section{
 }
 /* Laptop */
 @media only screen and (min-width: 992px){
-  #video-bg {
-    display: block;
-  }
+
   .education-list{
     width: 65%;
   }
