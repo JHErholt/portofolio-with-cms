@@ -30,7 +30,7 @@
       const LARGE_DEVICE = window.matchMedia("(min-width: 1200px)")
 
       if (window.pageYOffset > 0) {
-        GET_HEADER.style.backgroundColor = 'var(--clr-neutral-100)';
+        GET_HEADER.style.backgroundColor = '$clr-neutral-100';
         for (var i = 0; i < GET_A.length; i++) {
 
             if(PHONE.matches){
@@ -44,7 +44,7 @@
             }
         }
       } else {
-        GET_HEADER.style.backgroundColor = 'var(--clr-neutral-200)';
+        GET_HEADER.style.backgroundColor = '$clr-neutral-200';
         for (var i = 0; i < GET_A.length; i++) {
 
             if(PHONE.matches){
