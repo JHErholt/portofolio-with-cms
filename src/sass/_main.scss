@@ -1,0 +1,29 @@
+main{
+    min-height: 90vh;
+    color: $clr-neutral-800;
+    p{
+      padding: $offset-x-small 0;
+    }
+}
+.heading{
+    color: $clr-primary;
+    line-height: 2em;
+    font-size: 1.6em;
+    margin: 0 0 1em 0 ;
+}
+.intermediate-heading{
+    color: $clr-primary;
+    font-size: 1.2em;
+    text-align: center;
+    padding: $offset-x-small 0;
+}
+.body-text{
+    text-align: left;
+}
+
+@import "main-front";
+@import "main-about";
+@import "main-project";
+@import "main-archive";
+
+
