@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html{overflow-x: hidden;scroll-behavior: smooth !important;}
+html, body{min-height: 100vh;text-rendering: optimizeSpeed;}
+body{font-family: $font-standard;}
+
+li{list-style: none;}
+a{text-decoration: none;}
+input, button, textarea, select{font: inherit;}
+
+img, video, iframe{width: 100%;}
