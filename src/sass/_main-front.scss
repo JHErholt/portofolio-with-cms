@@ -1,4 +1,4 @@
-#video-bg {
+.front-video {
     position: relative;
     width: auto;
     min-width: 100%;
@@ -19,6 +19,7 @@ video {
 .front-section { 
     margin-bottom: 0 !important;
     min-height: 90vh;
+    background-color: $clr-secondary;
     background-image: url(../assets/front/index-banner-phone.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,21 +29,30 @@ video {
 // Media queries
 /* Little phone */
 @media only screen and (min-width: 425px){
-    #video-bg {
-        display: block;
-    }
+
 }
 /* Tablets */
 @media only screen and (min-width: 768px){
-
+    .video-tablet {
+        display: block;
+    }
 }
 /* Laptop */
 @media only screen and (min-width: 992px){
+    .video-tablet{
+        top: -$offset-large;
+    }
     .front-section {
         background-image: none;
     }
 }
   /* Large device */
 @media only screen and (min-width: 1200px){
-
+    .video-tablet{
+        display: none;
+    }
+    .video-pc{
+        display: block;
+        top: -$offset-medium;
+    }
 }
