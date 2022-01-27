@@ -54,32 +54,5 @@
             </div>
         </div>
         <div class="copyright center" id="copyright"></div>
-
-        {# Scripts #}
-
-        <script>
-            {# Create all rights text #}
-            const d = new Date();
-            const y = d.getFullYear();
-            var getAllRights = document.getElementById('copyright');
-            var createAll = document.createElement('p');
-            createAll.innerHTML = '&#169; 2019 -' + y + ' Jacob Erholt';
-            getAllRights.appendChild(createAll);
-
-            {# Create the mail #}
-            setTimeout(function () {
-                var getMailContainer = document.getElementById('mail-container')
-                var createMail = document.createElement('a')
-                createMail.innerHTML = 'jacob@erholt.dk'
-                createMail.href = 'mailto:jacob@erholt.dk'
-                createMail.target = '_blank'
-                createMail.className = 'footer-focus'
-                getMailContainer.appendChild(createMail)
-            }, 10)
-
-        </script>
-
-
-
     </section>
 </footer>
