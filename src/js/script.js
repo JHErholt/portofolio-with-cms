@@ -67,7 +67,7 @@ const d = new Date();
 const y = d.getFullYear();
 var getAllRights = document.getElementById('copyright');
 var createAll = document.createElement('p');
-createAll.innerHTML = '&#169; 2019 -' + y + ' Jacob Erholt';
+createAll.innerHTML = '&#169; 2019 - ' + y + ' Jacob Erholt';
 getAllRights.appendChild(createAll);
 
 // Create the mail
