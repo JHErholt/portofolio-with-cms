@@ -1,14 +1,14 @@
 ---
-title: Erholt Search
+title: Lejren på langeland
 author: Jacob Erholt
 tags: ['projekter']
-image: /assets/projekter/erholt-search_1.webp
+image: /assets/projekter/lejren_1.webp
 imageAlt: Snippet
 description: 
-linkToGithub: https://github.com/JHErholt/
-linkToSite: https://erholt-search.netlify.app/
+linkToGithub: https://github.com/JHErholt/lejrenPaaLangeland
+linkToSite: https://jerholt-lejren.netlify.app/
 
-siteImage: /assets/projekter/erholt-search_2.webp
+siteImage: /assets/projekter/lejren_2.webp
 siteImageAlt: Billede af siden
 ---
 <p>På hovedforløb 1 fik jeg en opgave, hvor at jeg skulle lave en hjemmeside med en API. </p>

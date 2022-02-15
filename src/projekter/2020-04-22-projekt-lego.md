@@ -5,7 +5,7 @@ tags: ['projekter', 'featured']
 image: /assets/projekter/projekt-lego_1.webp
 imageAlt: Snippet
 description:
-linkToGithub: https://github.com/JHErholt/scenery
+linkToGithub: https://github.com/JHErholt/
 linkToSite: https://lego-opsamling-jerholt.netlify.app/
 
 siteImage: /assets/projekter/projekt-lego_2.webp
