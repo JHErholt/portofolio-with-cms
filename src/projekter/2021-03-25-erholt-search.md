@@ -1,7 +1,7 @@
 ---
 title: Erholt Search
 author: Jacob Erholt
-tags: ['projekter', 'archive']
+tags: ['projekter']
 image: /assets/projekter/erholt-search_1.webp
 imageAlt: Snippet
 description: 

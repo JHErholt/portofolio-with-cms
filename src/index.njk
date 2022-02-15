@@ -5,8 +5,23 @@ title: Portfolio
 
 <section class="front-section">
     <div class="video-container">
-        {# <video src="../../assets/front/showreel_phone.mp4" autoplay loop muted class="front-video video-phone"></video>
-        <video src="../../assets/front/showreel_tablet.mp4" autoplay loop muted class="front-video video-tablet"></video> #}
         <video src="../../assets/front/showreel_pc.mp4" autoplay loop muted class="front-video video-pc"></video>
     </div>
+    <div>
+        {# Se den fulde showreel #}
+    </div>
+    <div class="spacious center">
+        <div class="center project-text-container">
+            <div class="text-container center">
+                <p>Her er en samling af mine udvalgte projekter</p>
+                <p class="center padding-top">Du kan se flere inde på <a href="/project">Projekter</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-group wrap">
+        {%- for projekter in collections.featured | reverse -%}
+            {% include "projekter-snippet.njk" %}
+        {%- endfor -%}
+    </div>
 </section>
+ 

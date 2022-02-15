@@ -33,6 +33,10 @@ header{
 }
 .selectedLink{
     text-decoration: underline;
+    color: $clr-primary !important;
+    &:hover{
+        text-decoration: none;
+    }
 }
 // Media queries
 /* Portrait phones */

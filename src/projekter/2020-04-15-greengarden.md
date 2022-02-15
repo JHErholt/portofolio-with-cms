@@ -1,7 +1,7 @@
 ---
 title: Greengarden
 author: Jacob Erholt
-tags: ['projekter', 'archive']
+tags: ['projekter']
 image: /assets/projekter/greengarden_1.webp
 imageAlt: Snippet
 description:

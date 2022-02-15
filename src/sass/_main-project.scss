@@ -58,6 +58,9 @@
         &:hover{
             color: $clr-primary;
         }
+        &:active{
+            color: $clr-primary--dark;
+        }
     }
 }
 
@@ -67,15 +70,16 @@
     .project-text-container{
         padding: $offset-large $offset-large $offset-medium $offset-large; 
     }
-    .projekter-snippet-container{
-        width: 33%;
-        margin: 0.166%;
-    }
+    
 }
 /* Laptop */
 @media only screen and (min-width: 992px){
     .projekter-snippet-overlay{
         opacity: 0;
+    }
+    .projekter-snippet-container{
+        width: 33%;
+        margin: 0.166%;
     }
 }
 /* Large device */

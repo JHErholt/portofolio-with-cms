@@ -1,7 +1,7 @@
 ---
 title: Projekt Dyr
 author: Jacob Erholt
-tags: ['projekter', 'archive']
+tags: ['projekter']
 image: /assets/projekter/projekt-dyr_1.webp
 imageAlt: Snippet
 description: 

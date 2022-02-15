@@ -8,7 +8,6 @@ title: Christmas countdown
 description:
 tags:
   - projekter
-  - archive
 image: /assets/projekter/christmas-countdown_1.webp
 linkToSite: https://christmas-erholt.netlify.app/
 ---
