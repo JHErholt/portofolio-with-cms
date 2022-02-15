@@ -60,7 +60,6 @@ switch (window.location.pathname) {
 }
 
 
-
 // Footer //
 // Create all rights text
 const d = new Date();
