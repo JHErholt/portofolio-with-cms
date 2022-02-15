@@ -11,8 +11,10 @@ linkToSite: https://jerholt-lejren.netlify.app/
 siteImage: /assets/projekter/lejren_2.webp
 siteImageAlt: Billede af siden
 ---
-<p>På hovedforløb 1 fik jeg en opgave, hvor at jeg skulle lave en hjemmeside med en API. </p>
+<p>På hovedeforløb 2, skulle jeg lave en side for 'Børnelejren på Langeland', som et skole projekt. </p>
 
-<p>Jeg blev sat til at lave en google look-alike, med hjælp fra CSS og Wikipedia’s API.</p>
+<p>Kravene på siden, var at der skulle kunne vise dem der havde doneret, tekst om lejren og et sted man kunne donere.</p>
 
-<p>Jeg havde ikke prøvet at lave en side med API’er før, så det var et spændende projekt for mig at lave. Jeg brugte JS til at importere API’en ind til min side, og styrede hvilken information jeg skulle skrive på siden, og hvordan informationen var sat op.</p>
+<p>Jeg havde 4 dage til at designe og bygge hjemmesiden, hvorefter den blev fremvidst til de andre lige inde afslutning af hovedeforløbet.</p>
+
+<p>Jeg arbejdede meget med at gøre det nemt for brugeren at se hvilken side man er på. Jeg skulle bruge js, da hele siden er lavet i et template language. Hvilket gjorde at den samme header blev smidt ind på alle sider</p>
