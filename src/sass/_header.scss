@@ -65,7 +65,10 @@ header{
 } 
 /* Large devices */
 @media only screen and (min-width: 1200px){
-    header ul{
-        gap: 4em;
-    }
+    header{
+        height: 10%;
+        ul{
+            gap: 4em;
+        }
+    } 
 } 
