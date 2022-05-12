@@ -1,7 +1,7 @@
 ---
 title: Brown Rabbit
 author: Jacob Erholt
-tags: ['projekter']
+tags: ['projekter', 'featured']
 image: /assets/projekter/brown-rabbit_1.webp
 imageAlt: Snippet
 description: 
