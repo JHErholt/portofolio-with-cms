@@ -9,12 +9,13 @@ title: Projekter
     <div class="spacious center">
         <div class="center project-text-container">
             <div class="text-container center">
-                <p>Her er en samling af mine udvalgte projekter.</p>
+                <p>Her er en samling af alle mine projekter</p>
+                <p class="center padding-top">De nyeste er først</p>
             </div>
         </div>
     </div>
-    <div class="flex-group wrap large-padding-top">
-        {%- for projekter in collections.featured | reverse -%}
+    <div class="flex-group wrap">
+        {%- for projekter in collections.projekter | reverse -%}
             {% include "projekter-snippet.njk" %}
         {%- endfor -%}
     </div>

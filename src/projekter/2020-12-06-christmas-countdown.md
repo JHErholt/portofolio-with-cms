@@ -3,12 +3,11 @@ author: Jacob Erholt
 imageAlt: Snippet
 siteImage: /assets/projekter/christmas-countdown_2.webp
 siteImageAlt: Billede af siden
-linkToGithub: https://github.com/JHErholt/scenery
+linkToGithub: https://github.com/JHErholt/
 title: Christmas countdown
 description:
 tags:
   - projekter
-  - archive
 image: /assets/projekter/christmas-countdown_1.webp
 linkToSite: https://christmas-erholt.netlify.app/
 ---

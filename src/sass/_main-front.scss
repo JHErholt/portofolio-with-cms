@@ -1,0 +1,53 @@
+.front-section { 
+    margin-bottom: 0 !important;
+    min-height: 100vh;
+    background-color: $clr-secondary;
+    color: $clr-neutral-100;
+    a{
+        color: $clr-primary;
+        transition: .2s;
+        &:hover{
+            color: $clr-primary--dark;
+        }
+    }
+}
+
+
+
+
+
+
+// Media queries
+/* Little phone */
+@media only screen and (min-width: 425px){
+
+}
+/* Tablets */
+@media only screen and (min-width: 768px){
+    .video-tablet {
+        display: block;
+    }
+}
+/* Laptop */
+@media only screen and (min-width: 992px){
+    .video-tablet{
+        top: -$offset-large;
+    }
+
+}
+  /* Large device */
+@media only screen and (min-width: 1200px){
+    .video-container {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        top: -10vh;
+        right: 0;
+        z-index: 1;
+    }
+    .front-project{
+        position: relative;
+        top: -10vh;
+    }
+}

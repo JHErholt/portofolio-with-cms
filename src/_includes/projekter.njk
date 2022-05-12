@@ -2,34 +2,30 @@
 layout: 'base.njk'
 ---
 <section class=" padding-top spacious center">
-         <h1 class="heading">
-            {{ title }}
-         </h1>
-         <div class="flex-group">
-         
-   <div class="col-50" id="case-text-wrapper">
-
-   {{ content | safe }}
-
-   <div class="padding-top case-link center">
-      <li>
-         <a class="link" target="_blank" href="{{ linkToSite }}">Website</a>
-      </li>
-      {# <li>
-         <a class="link" target="_blank" href="{{ linkToGithub }}">Github</a>
-      </li> #}
-   </div>
-   </div>
-   <div class="col-50">
-   
-{# image #}
-   <div class="padding-top">
-      <img src="{{ siteImage }}" alt=""> 
-   </div>
-
-   </div>
+   <h1 class="heading">
+      {{ title }}
+   </h1>
+   <div class="flex-group">
+      <div class="col-50" id="case-text-wrapper">
+         {{ content | safe }}
+         <div class="padding-top case-link center">
+            <li>
+               <a class="link" target="_blank" href="{{ linkToSite }}">Website</a>
+            </li>
+            {# <li>
+               <a class="link" target="_blank" href="{{ linkToGithub }}">Github</a>
+            </li> #}
          </div>
+      </div>
+      <div class="col-50">
+         <div class="padding-top">
+            <img src="{{ siteImage }}" alt=""> 
+         </div>
+      </div>
+   </div>
 </section>
+{# <section>
 
+</section> #}
 
 

@@ -1,0 +1,58 @@
+main section {
+    padding-bottom: 80px !important;
+}
+.portrait-container{
+    padding: $offset-medium;
+}
+.portrait{
+    width: 100%;
+    pointer-events: none;
+}
+.education-container{
+    padding: $offset-x-small 0;
+}
+.education-list{
+    width: 100%;
+    text-align: unset;
+    li{
+        line-height: 2em;
+    }
+}
+.text-container{
+    width: 100%;
+}
+
+// Media queries
+/* Tablets */
+@media only screen and (min-width: 768px){
+    .portrait{
+        width: 100%;
+    }
+    .education-list{
+        width: 70%;
+    }
+}
+/* Laptop */
+@media only screen and (min-width: 992px){  
+    .education-list{
+        width: 65%;
+    }
+    .portrait-container{
+        padding: $offset-large;
+    }
+    .text-container{
+        width: 80%;
+    }
+}
+/* Large device */
+@media only screen and (min-width: 1200px){
+    .education-list{
+        width: 40%;
+    }
+    .text-container{
+        width: 80%;
+    }
+    .portrait{
+        width: 50%;
+    }
+}
